@@ -42,4 +42,14 @@ public class ChannelAppMsg implements Serializable {
     public void setLink(String link) {
         this.link = link;
     }
+
+    @Override
+    public String toString() {
+        return "ChannelAppMsg{" +
+                "id=" + id +
+                ", channelId=" + channelId +
+                ", code='" + code + '\'' +
+                ", link='" + link + '\'' +
+                '}';
+    }
 }
